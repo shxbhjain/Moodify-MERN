@@ -176,7 +176,7 @@ useEffect(() => {
 
     console.info(`[PlaylistPage] mood=${mood} stateLang=${lang} storedPref=${normalizedPref} -> using langForQuery=${langForQuery}`);
 
-    const API_BASE = import.meta.env.VITE_API_BASE || 'http://localhost:4000';
+    const API_BASE = import.meta.env.VITE_API_BASE || 'https://moodify-mern.vercel.app/';
     const q = `${mood} playlist ${langForQuery !== 'mixed' ? langForQuery : ''} by spotify`.trim();
     const query = encodeURIComponent(q || mood || 'mood');
     const apiUrl = `${API_BASE.replace(/\/$/, '')}/api/spotify/search-playlists?q=${query}&limit=10`;
