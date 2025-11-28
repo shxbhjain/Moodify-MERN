@@ -385,7 +385,7 @@ export default function EmotionPage({ onEmotionDetected, onNavigate }) {
     }
 
     try {
-      const res = await fetch('http://localhost:4000/api/predict', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ landmarks: lst }) })
+      const res = await fetch('https://moodify-mern.vercel.app/api/predict', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ landmarks: lst }) })
       if (!res.ok) {
         let errorMsg = `HTTP error! status: ${res.status}`
         try { const errorData = await res.json(); errorMsg = errorData.error || `Backend error: ${res.statusText}` } catch (e) { errorMsg = `Backend request failed: ${res.statusText}` }
