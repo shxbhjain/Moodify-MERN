@@ -216,8 +216,6 @@ https://<your-server>/api/auth/spotify/callback
 ---
 
 ## 📄 License & Contact
-
-* License: MIT (add LICENSE file if needed)
 * Author: Shubh Jain
 
 ---
@@ -228,3 +226,4 @@ https://<your-server>/api/auth/spotify/callback
 # Moodify — Emotion-Based Music Recommendation
 Realtime emotion detection from face landmarks + Spotify-powered playlist recommendations.
 ```
+
