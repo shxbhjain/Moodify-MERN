@@ -179,13 +179,6 @@ https://<your-server>/api/auth/spotify/callback
 
 ---
 
-## 🧪 Testing
-
-* Backend: Jest / Mocha
-* Client: Testing-library / Cypress
-* OAuth flow needs manual verification.
-
----
 
 ## 🛠 Common Issues
 
@@ -226,4 +219,5 @@ https://<your-server>/api/auth/spotify/callback
 # Moodify — Emotion-Based Music Recommendation
 Realtime emotion detection from face landmarks + Spotify-powered playlist recommendations.
 ```
+
 
