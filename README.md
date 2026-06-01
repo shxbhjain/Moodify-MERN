@@ -213,11 +213,4 @@ https://<your-server>/api/auth/spotify/callback
 
 ---
 
-# Quick Copy Header
-
-```
-# Moodify — Emotion-Based Music Recommendation
-Realtime emotion detection from face landmarks + Spotify-powered playlist recommendations.
-```
-
 
